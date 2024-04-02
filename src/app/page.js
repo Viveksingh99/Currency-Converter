@@ -1,9 +1,11 @@
-import Image from "next/image";
+import CurrencyConverter from "@/components/CurrencyConverter";
 
 export default function Home() {
   return (
-    <>
-      <h1>Hello vivek</h1>
-    </>
+    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
+    <div className="container">
+      <CurrencyConverter />
+    </div>
+  </div>
   );
 }
